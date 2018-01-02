@@ -1,0 +1,50 @@
+body {
+        margin-top: 200px;
+        font-family: helvetica, san-serif;
+        font-size: 130%;
+        background-color: lavender;
+
+    }
+
+input {
+    padding: 5px 5px 12px 5px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    width: 320px;
+}
+
+label {
+    position: relative;
+    top: 12px;
+    width: 200px;
+    float: left;
+}
+
+#wrapper {
+    width: 550px;
+    margin: 0 auto;
+
+}
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+#submitButton {
+    width: 130px;
+    margin-left: 200px;
+    background-color: aquamarine;
+    padding-top: 10px;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 90% !important;
+}
+#successMessage{
+    color: green;
+    font-size: 90% !important;
+    display: none;
+    padding-bottom: 15px;
+}
